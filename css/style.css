@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+#tel h3 {
+  color: blue;
+}
+
+#tel p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+#tel img {
+  width: 500px;
+}
+
+html, body {
+  margin: 0;
+  background-color: var(--bc);
+}
+
+main {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  width: 75%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 25;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.space {
+  min-height: 20vh;
+}
+
+html, body {
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#tap p {
+  text-align: center;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+#tap p.name {
+  font-size: 15px;
+  color: var(--main-color, #1A2B48);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+#tap p.pos {
+  font-size: 14px;
+  color: #768092;
+  font-style: italic;
+}
+
+#fot .sol {
+  background: #FFFFFF;
+  border: 5px solid var(--link-color, #5191FA);
+  text-align: center;
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#fot .sol .for {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#fot .sol .for .fore {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#fot .sol .for .fore h4 {
+  font-size: 36px;
+  color: var(--main-color, #1A2B48);
+  font-weight: 500;
+  margin: 0;
+}
+
+#fot .sol .for .fore p .text {
+  font-size: 16px;
+  color: var(--main-color, #1A2B48);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+#fot .sol .vso {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: var(--link-color, #5191FA);
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#fot .sol p .tot {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#kart .sob {
+  text-align: center;
+}
+
+#kart .sob p.seni {
+  font-size: 20px;
+  color: var(--main-color, #1A2B48);
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 400;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+}
+
+#kart .sob img {
+  margin-bottom: 10px;
+  max-width: 80px;
+  height: auto;
+}
+
+#kart .sob p.name {
+  font-size: 14px;
+  color: var(--main-color, #1A2B48);
+  margin-bottom: 0px;
+}
+
+#kart .sob p.pos {
+  font-size: 14px;
+  color: #768092;
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
